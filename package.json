@@ -6,7 +6,7 @@
     "_pretest": "jshint .",
     "test": "mocha",
     "ci-test": "node_modules/.bin/istanbul cover \"node_modules/mocha/bin/_mocha\" > test.tap && istanbul report clover",
-    "checkstyle": "node_modules/.bin/jshint --reporter=checkstyle .  > checkstyle-result.xml"
+    "_checkstyle": "jshint --reporter=checkstyle . > checkstyle-result.xml",
   },
   "dependencies": {
     "compression": "^1.0.3",
