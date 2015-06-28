@@ -5,7 +5,8 @@
   "scripts": {
     "_pretest": "jshint .",
     "test": "mocha",
-    "ci-test": "node_modules/.bin/istanbul cover \"node_modules/mocha/bin/_mocha\" > test.tap && istanbul report clover"
+    "ci-test": "node_modules/.bin/istanbul cover \"node_modules/mocha/bin/_mocha\" > test.tap && istanbul report clover",
+    "checkstyle": "node_modules/.bin/jshint --reporter=checkstyle .  > checkstyle-result.xml"
   },
   "dependencies": {
     "compression": "^1.0.3",
@@ -24,7 +25,7 @@
     "chai": "^3.0.0",
     "eslint": "^0.24.0",
     "istanbul": "^0.3.17",
-    "jshint": "^2.5.6",
+    "jshint": "^2.8.0",
     "loopback-testing": "^1.2.0",
     "supertest": "^1.0.1",
     "supervisor": "^0.7.0",
