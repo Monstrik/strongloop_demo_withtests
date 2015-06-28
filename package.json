@@ -5,7 +5,8 @@
   "scripts": {
     "_pretest": "jshint .",
     "test": "mocha",
-    "ci-test": "istanbul cover tape \"test/tape.js\" > test.tap && istanbul report clover"
+    "ci-test": " istanbul cover test/tape.js > test.tap && istanbul report clover",
+    "aci-test": "istanbul cover tape \"test/tape.js\" > test.tap && istanbul report clover"
   },
   "dependencies": {
     "compression": "^1.0.3",
