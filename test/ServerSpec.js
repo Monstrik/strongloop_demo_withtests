@@ -7,14 +7,14 @@ var site = supertest('http://localhost:3000');
 
 
 
-describe('information at root directory of server',  function () {
-	it('is connecting locally', function (done) {
-		site.get('/')
-		.expect(200, function (err, data) {
-			console.log('error: ', err);
-			console.log('data: ', data);
-		})
-		.end(done);
-	});
+//describe('information at root directory of server',  function () {
+//	it('is connecting locally', function (done) {
+//		site.get('/')
+//		.expect(200, function (err, data) {
+//			console.log('error: ', err);
+//			console.log('data: ', data);
+//		})
+//		.end(done);
+//	});
 
-});
+//});
