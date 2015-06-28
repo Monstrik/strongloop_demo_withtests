@@ -20,3 +20,9 @@ npm-debug.log
 
 .vs/loop_demo/v14/.suo
 .vs/loop_demo/v14/.suo
+*.suo
+.vs/loop_demo/v14/.suo
+*.suo
+.vs/config/applicationhost.config
+*.suo
+.vs/loop_demo/v14/.suo
