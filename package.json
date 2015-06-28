@@ -5,7 +5,7 @@
   "scripts": {
     "_pretest": "jshint .",
     "test": "mocha",
-    "ci-test": "node_modules/.bin/istanbul cover \"node_modules/mocha/bin/_mocha\" > test.tap && istanbul report coverage"
+    "ci-test": "node_modules/.bin/istanbul cover \"node_modules/mocha/bin/_mocha\" > test.tap && istanbul report clover"
   },
   "dependencies": {
     "compression": "^1.0.3",
@@ -21,6 +21,7 @@
     "loopback-explorer": "^1.1.0"
   },
   "devDependencies": {
+    "chai": "^3.0.0",
     "eslint": "^0.24.0",
     "istanbul": "^0.3.17",
     "jshint": "^2.5.6",
