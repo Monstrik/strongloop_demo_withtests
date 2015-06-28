@@ -33,7 +33,7 @@ process.isPackaged - undefined
       √ should return -1 when the value is not present
 
 
-  13 passing (44ms)
+  13 passing (37ms)
 
 
 =============================== Coverage summary ===============================
